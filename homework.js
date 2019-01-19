@@ -28,11 +28,12 @@ value = string.indexOf(' ', value + 1);
 
 //5. Получить строку с 5-го символа длиной 4 буквы
 
-value = string.slice(5, 8);
+value = string.slice(4, 8);
 
 //6. Получить строку с 5-го по 9-й символы
 
-value = string.slice(5, 9);
+value = string.slice(4, 10);
+
 
 //7. Получить новую строку из исходной путем удаления последних 6-и символов
 
@@ -67,7 +68,7 @@ value = Math.random().toFixed(2);
 
 let x = 157;
 
-value = Math.round(Math.random()*x);
+value = Math.round(Math.random() * x);
 
 
 //4. Проверить результат вычисления 0.6 + 0.7 - как привести к нормальному виду (1.3)?
@@ -77,7 +78,7 @@ let c = 0.6,
 
 //4.  1 вариант
 
-value = (c*10 + d*10)/10;
+value = (c * 10 + d * 10) / 10;
 
 //4.  2 вариант
 
